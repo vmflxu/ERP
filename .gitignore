@@ -32,3 +32,6 @@ py.ico
 
 pyc.ico
 
+*.pdb
+
+tsc-erp-firebase-adminsdk-apb5k-f725d83303.json
