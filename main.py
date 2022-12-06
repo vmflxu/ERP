@@ -1,6 +1,5 @@
 # 메인윈도우
 import sys
-import os
 
 # import ERP Modules
 from customer import CustomerWindow
@@ -8,16 +7,17 @@ from productionorder import PoFrame
 from projectlist import ProjectList
 from mainframe import MainFrame
 from polist import PoList
+from material import Material
 
 from PyQt5.QtWidgets import *
-from PyQt5 import uic, QtWidgets, QtGui
+from PyQt5 import uic, QtWidgets
 
 import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import firestore
 
 # Connect Firebase: json file, below, has the information set for connecting DB
-credential_path = "tsc-erp-firebase-adminsdk-apb5k-08b86ff219.json"
+credential_path = "tsc-erp-firebase-adminsdk-apb5k-f725d83303.json"
 
 
 # os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
@@ -47,6 +47,7 @@ class MainWindow(QMainWindow,QAction,QtWidgets.QFrame,UI_class):
         self.action_Newpo.triggered.connect(self.menu_Po)
         self.action_Project.triggered.connect(self.menu_ProjectList)
         self.action_Polist.triggered.connect(self.menu_PoList)
+        self.action_Material.triggered.connect(self.menu_Material)
 
     # 거래처 선택시 팝업
     def menu_Customer(self):
@@ -59,10 +60,12 @@ class MainWindow(QMainWindow,QAction,QtWidgets.QFrame,UI_class):
         self.frame_po = PoFrame()
         self.frame_projectlist = ProjectList()
         self.frame_polist = PoList()
+        self.frame_material = Material()
         self.mainStackedWidget.addWidget(self.frame_main)
         self.mainStackedWidget.addWidget(self.frame_po)
         self.mainStackedWidget.addWidget(self.frame_projectlist)
         self.mainStackedWidget.addWidget(self.frame_polist)
+        self.mainStackedWidget.addWidget(self.frame_material)
 
         self.mainStackedWidget.setCurrentIndex(1)         # 기본 mainframe
 
@@ -72,6 +75,8 @@ class MainWindow(QMainWindow,QAction,QtWidgets.QFrame,UI_class):
         self.mainStackedWidget.setCurrentIndex(3)
     def menu_PoList(self):
         self.mainStackedWidget.setCurrentIndex(4)
+    def menu_Material(self):
+        self.mainStackedWidget.setCurrentIndex(5)
 
 
 app = QApplication(sys.argv)

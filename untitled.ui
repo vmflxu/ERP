@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>950</width>
+    <width>1962</width>
     <height>1000</height>
    </rect>
   </property>
@@ -38,7 +38,7 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>logo.png</normaloff>logo.png</iconset>
+    <normaloff>../ERP/logo.png</normaloff>../ERP/logo.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -64,13 +64,13 @@
       </property>
       <property name="minimumSize">
        <size>
-        <width>900</width>
+        <width>1962</width>
         <height>0</height>
        </size>
       </property>
       <property name="maximumSize">
        <size>
-        <width>900</width>
+        <width>1962</width>
         <height>900</height>
        </size>
       </property>
@@ -110,7 +110,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>950</width>
+     <width>1962</width>
      <height>21</height>
     </rect>
    </property>
@@ -176,6 +176,7 @@
      <addaction name="act_MM02"/>
     </widget>
     <addaction name="menu_MC"/>
+    <addaction name="action_Material"/>
    </widget>
    <widget class="QMenu" name="menu">
     <property name="title">
@@ -348,6 +349,11 @@
   <action name="action_Project">
    <property name="text">
     <string>프로젝트 리스트</string>
+   </property>
+  </action>
+  <action name="action_Material">
+   <property name="text">
+    <string>자재현황</string>
    </property>
   </action>
  </widget>
