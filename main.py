@@ -19,9 +19,6 @@ from firebase_admin import firestore
 # Connect Firebase: json file, below, has the information set for connecting DB
 credential_path = "tsc-erp-firebase-adminsdk-apb5k-f725d83303.json"
 
-
-# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
-
 cred = credentials.Certificate(credential_path)
 firebase_admin.initialize_app(cred,None,'main')
 
@@ -77,7 +74,6 @@ class MainWindow(QMainWindow,QAction,QtWidgets.QFrame,UI_class):
         self.mainStackedWidget.setCurrentIndex(4)
     def menu_Material(self):
         self.mainStackedWidget.setCurrentIndex(5)
-
 
 app = QApplication(sys.argv)
 

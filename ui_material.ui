@@ -121,7 +121,7 @@
                <widget class="QLineEdit" name="lineEdit"/>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton">
+               <widget class="QPushButton" name="button_search">
                 <property name="text">
                  <string>검색</string>
                 </property>
@@ -203,9 +203,35 @@
               <item>
                <widget class="QLabel" name="label_HQ_total">
                 <property name="text">
-                 <string>label_HQ_total</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_0">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_14">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -237,9 +263,35 @@
               <item>
                <widget class="QLabel" name="label_cleanroom">
                 <property name="text">
-                 <string>label_cleanroom</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_1">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_15">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -271,9 +323,35 @@
               <item>
                <widget class="QLabel" name="label_m1">
                 <property name="text">
-                 <string>label_m1</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_2">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_16">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -305,9 +383,35 @@
               <item>
                <widget class="QLabel" name="label_m2">
                 <property name="text">
-                 <string>label_m2</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_3">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_17">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -339,9 +443,35 @@
               <item>
                <widget class="QLabel" name="label_stack">
                 <property name="text">
-                 <string>label_stack</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_4">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_18">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -373,9 +503,35 @@
               <item>
                <widget class="QLabel" name="label_vacuum">
                 <property name="text">
-                 <string>label_vacuum</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_5">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_19">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -407,9 +563,35 @@
               <item>
                <widget class="QLabel" name="label_yard">
                 <property name="text">
-                 <string>label_yard</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_6">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_20">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -441,9 +623,35 @@
               <item>
                <widget class="QLabel" name="label_warehouse">
                 <property name="text">
-                 <string>label_warehouse</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_7">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_21">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -465,7 +673,7 @@
                  </font>
                 </property>
                 <property name="text">
-                 <string>▣ 사외창고(멀티플렉스) 현황</string>
+                 <string>▣ 사외창고 현황</string>
                 </property>
                </widget>
               </item>
@@ -499,9 +707,35 @@
               <item>
                <widget class="QLabel" name="label_MF_total">
                 <property name="text">
-                 <string>label_MF_total</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_8">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_22">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -533,9 +767,35 @@
               <item>
                <widget class="QLabel" name="label_B104">
                 <property name="text">
-                 <string>label_B104</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_9">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_23">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -567,9 +827,35 @@
               <item>
                <widget class="QLabel" name="label_B105">
                 <property name="text">
-                 <string>label_B105</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_10">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_24">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -620,9 +906,41 @@
                  </font>
                 </property>
                 <property name="text">
-                 <string>label_total</string>
+                 <string/>
+                </property>
+                <property name="alignment">
+                 <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
                 </property>
                </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="label_unit_11">
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <spacer name="horizontalSpacer_25">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+                <property name="sizeType">
+                 <enum>QSizePolicy::Fixed</enum>
+                </property>
+                <property name="sizeHint" stdset="0">
+                 <size>
+                  <width>30</width>
+                  <height>20</height>
+                 </size>
+                </property>
+               </spacer>
               </item>
              </layout>
             </item>
@@ -661,12 +979,12 @@
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">QFrame{
+            <string notr="true">.QFrame{
 image: url(hq.png);
 border-image: none;
 }</string>
            </property>
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="button_cleanroom">
             <property name="geometry">
              <rect>
               <x>500</x>
@@ -688,12 +1006,12 @@ border-image: none;
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_3">
+           <widget class="QPushButton" name="button_m1">
             <property name="geometry">
              <rect>
-              <x>115</x>
+              <x>50</x>
               <y>5</y>
-              <width>50</width>
+              <width>110</width>
               <height>30</height>
              </rect>
             </property>
@@ -707,18 +1025,18 @@ border-image: none;
              <string notr="true">border-image:none;</string>
             </property>
             <property name="text">
-             <string>#1</string>
+             <string>자재실 #1</string>
             </property>
             <property name="flat">
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_4">
+           <widget class="QPushButton" name="button_m2">
             <property name="geometry">
              <rect>
-              <x>115</x>
+              <x>50</x>
               <y>105</y>
-              <width>50</width>
+              <width>110</width>
               <height>30</height>
              </rect>
             </property>
@@ -729,13 +1047,13 @@ border-image: none;
              </font>
             </property>
             <property name="text">
-             <string>#2</string>
+             <string>자재실 #2</string>
             </property>
             <property name="flat">
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_5">
+           <widget class="QPushButton" name="button_stack">
             <property name="geometry">
              <rect>
               <x>250</x>
@@ -757,7 +1075,7 @@ border-image: none;
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_6">
+           <widget class="QPushButton" name="button_yard">
             <property name="geometry">
              <rect>
               <x>500</x>
@@ -779,7 +1097,7 @@ border-image: none;
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_7">
+           <widget class="QPushButton" name="button_vacuum">
             <property name="geometry">
              <rect>
               <x>250</x>
@@ -801,7 +1119,7 @@ border-image: none;
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_8">
+           <widget class="QPushButton" name="button_warehouse">
             <property name="geometry">
              <rect>
               <x>115</x>
@@ -831,11 +1149,11 @@ border-image: none;
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QLabel" name="label_2">
+           <widget class="QLabel" name="label_num_m1">
             <property name="geometry">
              <rect>
-              <x>10</x>
-              <y>70</y>
+              <x>7</x>
+              <y>40</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -853,20 +1171,21 @@ border-image: none;
              <string notr="true">QLabel{
 	border-image:none;
 	background-image:none;
+	color: rgb(255, 0, 0);
 }</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
            </widget>
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="label_num_cleanroom">
             <property name="geometry">
              <rect>
-              <x>410</x>
-              <y>110</y>
+              <x>415</x>
+              <y>40</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -877,84 +1196,21 @@ border-image: none;
               <pointsize>18</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
            </widget>
-           <widget class="QLabel" name="label_6">
-            <property name="geometry">
-             <rect>
-              <x>170</x>
-              <y>260</y>
-              <width>150</width>
-              <height>30</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>넥슨Lv2고딕 Bold</family>
-              <pointsize>18</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-           <widget class="QLabel" name="label_8">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>170</y>
-              <width>150</width>
-              <height>30</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>넥슨Lv2고딕 Bold</family>
-              <pointsize>18</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-           <widget class="QLabel" name="label_11">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>340</y>
-              <width>150</width>
-              <height>30</height>
-             </rect>
-            </property>
-            <property name="font">
-             <font>
-              <family>넥슨Lv2고딕 Bold</family>
-              <pointsize>18</pointsize>
-             </font>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-            </property>
-           </widget>
-           <widget class="QLabel" name="label_12">
+           <widget class="QLabel" name="label_num_stack">
             <property name="geometry">
              <rect>
               <x>170</x>
-              <y>490</y>
+              <y>140</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -965,18 +1221,21 @@ border-image: none;
               <pointsize>18</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
            </widget>
-           <widget class="QLabel" name="label_14">
+           <widget class="QLabel" name="label_num_m2">
             <property name="geometry">
              <rect>
-              <x>410</x>
-              <y>230</y>
+              <x>7</x>
+              <y>140</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -987,8 +1246,86 @@ border-image: none;
               <pointsize>18</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_num_warehouse">
+            <property name="geometry">
+             <rect>
+              <x>7</x>
+              <y>330</y>
+              <width>150</width>
+              <height>30</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>넥슨Lv2고딕 Bold</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_num_vacuum">
+            <property name="geometry">
+             <rect>
+              <x>170</x>
+              <y>475</y>
+              <width>150</width>
+              <height>30</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>넥슨Lv2고딕 Bold</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>0</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_num_yard">
+            <property name="geometry">
+             <rect>
+              <x>415</x>
+              <y>190</y>
+              <width>150</width>
+              <height>30</height>
+             </rect>
+            </property>
+            <property name="font">
+             <font>
+              <family>넥슨Lv2고딕 Bold</family>
+              <pointsize>18</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
+            <property name="text">
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -1024,7 +1361,7 @@ border-image: none;
             </size>
            </property>
            <property name="styleSheet">
-            <string notr="true">QFrame{
+            <string notr="true">.QFrame{
 	background-image: url(mf.png);
 	border-image: none;
 }</string>
@@ -1035,14 +1372,20 @@ border-image: none;
            <property name="frameShadow">
             <enum>QFrame::Raised</enum>
            </property>
-           <widget class="QPushButton" name="pushButton_9">
+           <widget class="QPushButton" name="button_B104">
             <property name="geometry">
              <rect>
-              <x>465</x>
+              <x>460</x>
               <y>135</y>
-              <width>121</width>
+              <width>130</width>
               <height>30</height>
              </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
             </property>
             <property name="font">
              <font>
@@ -1051,20 +1394,26 @@ border-image: none;
              </font>
             </property>
             <property name="text">
-             <string>사외-B104</string>
+             <string>사외(B104)</string>
             </property>
             <property name="flat">
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton_10">
+           <widget class="QPushButton" name="button_B105">
             <property name="geometry">
              <rect>
-              <x>465</x>
+              <x>460</x>
               <y>423</y>
-              <width>121</width>
+              <width>130</width>
               <height>30</height>
              </rect>
+            </property>
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
             </property>
             <property name="font">
              <font>
@@ -1073,17 +1422,17 @@ border-image: none;
              </font>
             </property>
             <property name="text">
-             <string>사외-B105</string>
+             <string>사외(B105)</string>
             </property>
             <property name="flat">
              <bool>true</bool>
             </property>
            </widget>
-           <widget class="QLabel" name="label_18">
+           <widget class="QLabel" name="label_num_B104">
             <property name="geometry">
              <rect>
-              <x>430</x>
-              <y>310</y>
+              <x>435</x>
+              <y>175</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -1100,18 +1449,21 @@ border-image: none;
               <pointsize>18</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
             </property>
            </widget>
-           <widget class="QLabel" name="label_20">
+           <widget class="QLabel" name="label_num_B105">
             <property name="geometry">
              <rect>
-              <x>430</x>
-              <y>590</y>
+              <x>435</x>
+              <y>460</y>
               <width>150</width>
               <height>30</height>
              </rect>
@@ -1122,8 +1474,11 @@ border-image: none;
               <pointsize>18</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">	color: rgb(255, 0, 0);</string>
+            </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string>0</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
