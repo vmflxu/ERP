@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import *
 from PyQt5 import uic, QtCore, QtWidgets
-from PyQt5.QtCore import Qt, QDate
-from PyQt5.QtGui import QIntValidator, QStandardItemModel, QStandardItem
+from PyQt5.QtCore import QDate
+from PyQt5.QtGui import QIntValidator
 
 from firebase_admin import db, firestore
 
@@ -41,19 +41,9 @@ class PoList(QtWidgets.QFrame,UI_polist):
         #   restrict type of the input data
         self.setInputType()
         self.edit_ordernumber.setReadOnly(False)
-
-        # self.grid_date = QGridLayout()
-        # self.groupBox_orderdate.addWidget(self.label_from,0,0)
-        # self.groupBox_orderdate.addWidget(self.button_from,1,0)
-        # self.groupBox_orderdate.addWidget(self.label_to,0,1)
-        # self.groupBox_orderdate.addWidget(self.button_to,1,1)
-
         self.button_from.setEnabled(False)
         self.button_to.setEnabled(False)
-
         self.groupBox_ordernumber.setLayout(self.hbox_ordernumber)
-        # self.groupBox_orderdate.setLayout(self.grid_date)
-
 
     def slotGroupBoxSearch(self):
         self.radio_ordernumber.toggled.connect(lambda:self.changeGroupBoxByRadio(True))
@@ -117,7 +107,6 @@ class PoList(QtWidgets.QFrame,UI_polist):
                 column = column + 1
             row = row + 1
             column = 0
-
 
     #   Calendar 분기 처리
     def calButtonClicked(self,id):

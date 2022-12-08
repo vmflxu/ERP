@@ -23,16 +23,12 @@ class ProjectList(QtWidgets.QFrame,UI_projectlist):
         self.setupUi(self)
         self.setProjectList()
         self.getTableModel()
-       
 
     #   refresh
     def refreshTable(self):
         self.dataset = []
         self.setProjectList()
         self.getTableModel()
-    
-    # def modifyPJT(self):
-    #     print("반응")
 
     #   read DB and return it as 2 dimensional List
     def setProjectList(self):        
