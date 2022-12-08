@@ -38,14 +38,13 @@ class Material(QtWidgets.QFrame,UI_material):
         self.itemunit = None
         userinput = str(self.lineEdit.text())
 
-        temp = db.collection("MATERIALS").stream()
-        for snapshots in temp :
-            print(snapshots.id, snapshots.to_dict())
-            if snapshots.to_dict().get("ITEM") == None:
-                continue
+        docs = db.collection("MATERIALS").stream()
+        for doc in docs :
+            if userinput in doc.to_dict().get("ITEM"):
+                self.itemlist.append(doc.to_dict().get("ITEM"))
+                self.itemunit = doc.to_dict().get("UNIT")
             else:
-                self.itemlist.append(snapshots.to_dict().get("ITEM"))
-                self.itemunit = snapshots.to_dict().get("UNIT")
+                continue
 
         self.setListWidget()
 
@@ -59,11 +58,11 @@ class Material(QtWidgets.QFrame,UI_material):
         for item in self.itemlist:
             self.listWidget.addItem(item)
 
-    def slotListWidget(self):
+    def slotListWidget(self,item):
         data = {}
         docs = db.collection("WAREHOUSE").stream()
         for doc in docs:
-            data[str(doc.id)] = doc.to_dict().get(self.listWidget.currentItem().text())
+            data[str(doc.id)] = doc.to_dict().get(item.text())
         self.setLabels(data)
         
     def setLabels(self,data:dict):
